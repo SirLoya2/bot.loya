@@ -172,8 +172,13 @@ function start(client) {
          await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! '); 
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
          break;
+        //https://drive.google.com/file/d/1cHXsPPrXgFoCQbCpGeA-szrqAeY8poWH/view?usp=sharing
+        //https://drive.google.com/file/d/1DsbrcNfyoAZVjqJJQiFgBSVaHfjXIl99/view?usp=sharing
       case 'chapter12':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+        client.sendFile(message.from, 'https://drive.google.com/uc?id=1cHXsPPrXgFoCQbCpGeA-szrqAeY8poWH&export=download' , 'chapter12-sir loya.pdf', 'check this pdf', null, true)
+        client.sendFile(message.from, 'https://drive.google.com/uc?id=1DsbrcNfyoAZVjqJJQiFgBSVaHfjXIl99&export=download' , 'chapter12-(2nd)sir loya.pdf', 'check this pdf', null, true)
+        await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! '); 
+         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');  
           break;
       case 'chapter13':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
