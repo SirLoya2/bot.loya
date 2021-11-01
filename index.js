@@ -128,7 +128,7 @@ function start(client) {
          
        case 'chapter3':         
                client.sendFile(message.from, 'https://drive.google.com/uc?id=1h3BNg0-t7G8kx9X6HqhsMrm2a6RoeXA6&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+               client.sendText(message.from,' *send_ing* ........ it could take 1 or 2mins to send!');
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
          break;
       case 'chapter4':
