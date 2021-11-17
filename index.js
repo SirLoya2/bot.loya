@@ -118,59 +118,70 @@ function start(client) {
         break;
       case 'chapter1':
         await client.sendText(message.from, 'This chapter has been removed and the syllabus for 2021 has not been updated yet!');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
         break;
         
       case 'chapter2':
             client.sendFile(message.from, 'https://drive.google.com/uc?id=1X3GNKpA281sByjQpgDwWEw4ebi2-ITmV&export=download' , 'chapter2.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
          break;
          
        case 'chapter3':         
                client.sendFile(message.from, 'https://drive.google.com/uc?id=1h3BNg0-t7G8kx9X6HqhsMrm2a6RoeXA6&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *send_ing* ........ it could take 1 or 2mins to send!');
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
          break;
       case 'chapter4':
              client.sendFile(message.from, 'https://drive.google.com/uc?id=1ovSHWBOAJxXivp6WhW6TA9jc1LH9PzKA&export=download' , 'chapter4.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;  
       case 'chapter5':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=1hY5wsXJhgCCQCDhau3jBu2gHTPZOxPUF&export=download' , 'chapter5.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
          client.sendFile(message.from, 'https://drive.google.com/uc?id=1qJU6qmOogVt1PaCiYS0CFR1dux-IGew6&export=download' , 'genetics-newest.pdf', 'check this pdf', null, true)
         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
 
           break;
       case 'chapter6':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=1nHx_oHLiLACb1JdptYR38Rh-FQvyvKTs&export=download' , 'chapter6.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
       case 'chapter7':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
           //https://drive.google.com/file/d/1Dmxx5UK5_I26AXwPXkQmsrrCcakNOQpm/view?usp=sharing
       case 'chapter8':
         client.sendFile(message.from, 'https://drive.google.com/uc?id=1Dmxx5UK5_I26AXwPXkQmsrrCcakNOQpm&export=download' , 'chapter8-sir loya.pdf', 'check this pdf', null, true)
          await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send!');
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
          break;
       case 'chapter9':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
           //https://drive.google.com/file/d/1pYXWwxCHGUbPOnKPbEuQfHja6hqZGL2P/view?usp=sharing
       case 'chapter10':
         client.sendFile(message.from, 'https://drive.google.com/uc?id=1pYXWwxCHGUbPOnKPbEuQfHja6hqZGL2P&export=download' , 'chapter10-sir loya.pdf', 'check this pdf', null, true)   
       await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! ');
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
          break;
           //https://drive.google.com/file/d/16np1swAN_BZy74dHgb8spUnqLgTJ1iGH/view?usp=sharing
       case 'chapter11':
         client.sendFile(message.from, 'https://drive.google.com/uc?id=16np1swAN_BZy74dHgb8spUnqLgTJ1iGH&export=download' , 'chapter11-sir loya.pdf', 'check this pdf', null, true)
          await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! '); 
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
          break;
         //https://drive.google.com/file/d/1cHXsPPrXgFoCQbCpGeA-szrqAeY8poWH/view?usp=sharing
         //https://drive.google.com/file/d/1DsbrcNfyoAZVjqJJQiFgBSVaHfjXIl99/view?usp=sharing
@@ -178,22 +189,27 @@ function start(client) {
         client.sendFile(message.from, 'https://drive.google.com/uc?id=1cHXsPPrXgFoCQbCpGeA-szrqAeY8poWH&export=download' , 'chapter12-sir loya.pdf', 'check this pdf', null, true)
         client.sendFile(message.from, 'https://drive.google.com/uc?id=1DsbrcNfyoAZVjqJJQiFgBSVaHfjXIl99&export=download' , 'chapter12-(2nd)sir loya.pdf', 'check this pdf', null, true)
         await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! '); 
-         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');  
+         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
       case 'chapter13':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
       case 'chapter14':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
         //https://drive.google.com/file/d/14XLvQTYHa0FvXo3PS3eU89WmnmehnagZ/view?usp=sharing
       case 'chapter15':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=14XLvQTYHa0FvXo3PS3eU89WmnmehnagZ&export=download' , 'chapter15-sir loya.pdf', 'check this pdf', null, true)
          await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! '); 
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
        case 'chapter16':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+        await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
                                
         case 'meetingid':
