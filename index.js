@@ -192,8 +192,9 @@ function start(client) {
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
         await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
+          //https://drive.google.com/file/d/1hNcqSv0gGHTviqXkeI0O_qxpXBRs5X7l/view?usp=sharing
       case 'chapter13':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+        client.sendFile(message.from, 'https://drive.google.com/uc?id=1hNcqSv0gGHTviqXkeI0O_qxpXBRs5X7l&export=download' , 'chapter13-sir loya.pdf', 'check this pdf', null, true) 
         await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
           break;
       case 'chapter14':
@@ -202,7 +203,9 @@ function start(client) {
           break;
         //https://drive.google.com/file/d/14XLvQTYHa0FvXo3PS3eU89WmnmehnagZ/view?usp=sharing
       case 'chapter15':
+        //https://drive.google.com/file/d/1xzvWlnad6u4sDeF8Nbri-mm7uOKA2-x5/view?usp=sharing
           client.sendFile(message.from, 'https://drive.google.com/uc?id=14XLvQTYHa0FvXo3PS3eU89WmnmehnagZ&export=download' , 'chapter15-sir loya.pdf', 'check this pdf', null, true)
+          client.sendFile(message.from, 'https://drive.google.com/uc?id=1xzvWlnad6u4sDeF8Nbri-mm7uOKA2-x5&export=download' , 'chapter15-sir loya2nd.pdf', 'check this pdf', null, true)
          await client.sendText(message.from, ' *sending* ........ it could take 1 or 2mins to send! '); 
          client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3'); 
         await client.sendText(message.from, 'I may not be always there for you, So remember this website: /n/n loya.tk');
